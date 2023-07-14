@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP Combustível</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <img src="img/gas_alc.png">
+
+        <h1>Calculadora de Combustível</h1>
+
+    </header>
+    <main>
+        <img src="img/neutro.png" id="status">
+
+        <form name="formularioFlex">
+            <input type="text" size="8" placeholder="ETANOL" name="valorEtanol" class="campo">
+            <input type="text" size="8" placeholder="GASOLINA" name="valorGasolina" class="campo"> <br>
+            <input type="button" value="Calcular" onclick="calcular()" class="btnTamanho">
+            <input type="reset" value="Limpar" onclick="limpar()" class="btnTamanho">
+        </form>
+        </form>
+
+    </main>
+    <footer>
+
+        <p>Desenvolvido por Heloiza <span>&reg;</span></p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

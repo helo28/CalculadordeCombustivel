@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*TEXTO CALCULADORA*/
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+body{
+    background: darkgray;
+    text-align: center;
+}
+
+/* A IMAGEM QUE ESTÁ DENTRO DO HEADER*/
+header img{
+    max-width: 80%; /*DEFININDO O TAMANHO MÁXIMO DA IMAGEM*/
+}
+
+/*A IMAGEM QUE ESTÁ DENTRO DO MAIN*/
+main img{
+    max-width: 800px; /*DEFININDO O TAMANHO MÁXIMO DA IMAGEM*/
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.campo{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px; /*AFASTA UMA COISA DA OUTRA POR BAIXO*/
+    border-radius: 3px;
+}
+
+.btnTamanho{
+    width: 154px;
+    height: 34px;
+    text-align: center;
+    margin-top: 10px; /*AFASTA UMA COISA DA OUTRA POR BAIXO*/
+    border-radius: 3px;   
+}
+
+/*HOVER É O QUE DEIXA O BOTÃO DIFERENTE AO PASSAR O MOUSE NELE */
+.btnTamanho:hover{
+    background: gray;
+    color: #fff;
+}
+
+/*É A FAIXA LÁ EM BAIXO*/
+footer{
+    font-family: 'Times New Roman', Times, serif; /*DANDO UMA FONTE DIFERENTE PARA A ESCRITA*/
+    background: grey; /*PRETO*/
+    color: #fff; /*BRANCO*/
+    font-size: 0.8em;
+    padding: 30px; /*CRIANDO A FAIXA PRETA DE LÁ DE BAIXO*/
+    margin-top: 30px;
+}
+
+/*COR DA LETRA DO HELOIZA*/
+p {
+    color: #000;
+}
+
+/*DEZENHINHO DO R DEPOISA DE HELOIZA*/
+span{
+    color: red;
+}
